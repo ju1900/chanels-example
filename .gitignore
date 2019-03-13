@@ -1,6 +1,10 @@
 .cache/
 .coverage
 .tox/
+.vscode/
+__pycache__/
 htmlcov/
 staticfiles/
 venv/
+migrations/
+*.swp

@@ -23,3 +23,11 @@ Then, to run:
 ## Running with Docker
 
 Tomas Tomecek put together a [Dockerized version of this app](https://github.com/TomasTomecek/open-house-2016-demo).
+
+## 总结
+这个项目经过实验可以在本地部署，需要注意以下几点
+
+1. 严格按照 requirements.py 安装依赖包
+2. 本地创建的 postgres 数据名为 myproject，所以在 settings.py 文件中将 channels-example 替换为 myproject。
+3. 关于 postgresql 的安装，可以参照(此文)[https://www.digitalocean.com/community/tutorials/how-to-use-postgresql-with-your-django-application-on-ubuntu-14-04]。
+4. requirements_local.txt 为本地包列表，requirements_origin.txt 为原本列表。
